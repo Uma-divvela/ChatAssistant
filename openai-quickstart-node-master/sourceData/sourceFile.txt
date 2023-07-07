@@ -1,22 +1,265 @@
-Clock Setup Instruction:
-1.  Power the clock on.
-2.  Select the default language.
-3.  Tap the Menu button on the bottom left of the clock.
-On the next screen, tap Maintenance mode.
-4.  Then enter in password 115190 and press Enter. (When prompted to Change Password, please disregard).
-5.  Tap Settings.
-On the next screen, choose Communication Settings > General Communication.
-6.  Tap on Device Initiated.
-Enter the Device ID for your specific clock (found under the “Device Id” column of the clock).
-7.  Enter the Primary Server Password (under “Password” column of the clock), then enter again to verify.
-8.  Http-SSL to No.
-9.  Set Primary Server to INTOUCH2.SAASHR.COM.
-10.  Set Primary server Port to 80.
-11.  Set Primary Server Instance ID to 99.
-12.  Review information and then tap Submit.
-13.  If you will be using DHCP, proceed to DHCP Clock Configuration.
-     If you will be using static IP, proceed to Static IP Clock Configuration.
-     If you will be using Wi-Fi, proceed to Wi-Fi Clock Configuration.
+A device profile in the context of the ADP system refers to the configuration settings and specifications associated with a specific device or clock. These profiles determine the operation and interaction of the clock with the workforce management application.
+Device profiles and terminal profiles are synonymous in the context of clock devices. They are used interchangeably to describe the same concept.
+A device profile is identified by a unique ID and may also include a description.
+The device profile encompasses the following configurations:
+1. General Settings: This section configures general features such as TimeZone, Time Format, and Default Language.
+2. Messaging: Messages to be displayed on the device are configured in this section.
+3. Time Clock Usage: Settings related to how the device or clock is accessed are defined here.
+4. Soft Key Configuration: This section contains settings associated with function keys on the device.
+5. Badge Scan Formats: Settings for scanning badges and defining their formats are included here.
+Please note that these configurations are specific to the device profile in the ADP system and may vary depending on the platform or software version being used.
+
+To access the Device Profile page and its respective tabs, follow these steps:
+1. Device Profile:
+   - Login to the system.
+   - Click on the "Setup" tab.
+   - Navigate to "Time and Attendance" and select "Time Clock Configuration."
+   - Within the Device Configuration application, select the "Manage Profile" option.
+   - This will direct you to the Device Profile page.
+2. General Settings:
+   - Device Profile Page -> General Settings tab
+3. Time Clock Usage:
+   - Device Profile Page -> Time Clock Usage tab
+4. Soft Key Configuration:
+   - Device Profile Page -> Soft Key Configuration tab
+5. Messaging:
+   - Device Profile Page -> Messaging tab
+6. Scan Format:
+   - Device Profile Page -> Scan Format tab
+Following these steps will lead you to the Device Profile page, from which you can navigate to each of the mentioned tabs: General Settings, Time Clock Usage, Soft Key Configuration, Messaging, and Scan Format.
+
+
+To create a new profile within the Device Profile page, the user needs to follow these steps:
+1. Access the Device Profile page by navigating through the system's menus and options.
+2. Once on the Device Profile page, locate the button labeled "Create New Profile" on the top right-hand side.
+3. Click on the "Create New Profile" button to initiate the profile creation process.
+4. Fill in the necessary details and configurations for the new profile, such as:
+   - Assigning a unique identifier or name to the profile.
+   - Setting up general configurations like time zone, time format, and default language.
+   - Defining the messaging options and idle message settings.
+   - Configuring the scan formats for employee badges, labor charge barcodes, and proximity formats, as required.
+   - Customizing soft key layouts and functions.
+5. Save the changes to create the new profile.
+6. Optionally, review and adjust other settings available within the Device Profile page, such as time clock usage configurations.
+7. Once all desired changes are made, exit the Device Profile page or proceed to further settings or configurations if needed.
+By following these steps and providing the necessary details and configurations, the user can create a new profile within the Device Profile page, tailored to their specific requirements for the clock device.
+
+
+To copy an existing profile within the Device Profile page, follow these steps:
+1. Access the Device Profile page as described earlier.
+2. Scroll through the list of existing profiles to locate the profile you wish to copy.
+3. Select the particular profile by clicking on it. This will highlight the profile and display its details on the page.
+4. Once the desired profile is selected, navigate to the bottom of the page.
+5. Look for the "Copy" button or a similar option located at the bottom of the Device Profile page.
+6. Click on the "Copy" button to initiate the copying process.
+7. The system will create a duplicate of the selected profile, including all its settings and configurations.
+8. Review the copied profile to ensure its accuracy and make any necessary modifications or updates.
+9. Save the changes to finalize the copied profile.
+10. The copied profile is now available as a new profile, ready for further customization or assignment as needed.
+By following these steps and clicking the "Copy" button after selecting the desired profile, you can create a copy of an existing profile within the Device Profile page. This allows for quick replication of settings and configurations, saving time and effort in creating similar profiles.
+
+
+To delete a profile within the Device Profile page, follow these steps:
+1. Access the Device Profile page as described earlier.
+2. Scroll through the list of profiles and locate the profile you want to delete.
+3. Navigate to the bottom of the profile details where you will find the "Delete" button or a similar option.
+4. Click on the "Delete" button to initiate the deletion process.
+5. Before the profile can be deleted, there is an important consideration: If the profile is currently assigned to any device, it cannot be deleted until it is either unassigned or the devices are deleted.
+To proceed with the deletion, you have two options:
+Option 1: Assign the devices to a different profile:
+   - Identify the devices that are currently assigned to the profile you want to delete.
+   - Access the Device Profile page of each of those devices.
+   - Assign a different profile to each device by selecting an alternative profile from the available options.
+   - Save the changes to update the device assignments.
+   - Return to the original profile you wish to delete and proceed with the deletion process.
+Option 2: Delete the devices:
+   - Identify the devices that are currently assigned to the profile you want to delete.
+   - Determine if these devices can be deleted from the system without impacting other operations or configurations.
+   - If appropriate, delete the devices from the system.
+   - Once the devices are deleted, return to the original profile you wish to delete and proceed with the deletion process.
+By following either Option 1 or Option 2, you can ensure that the profile is no longer assigned to any device, allowing you to delete it successfully. It's important to consider the implications of reassigning devices or deleting them, ensuring that any necessary backups or data transfers are performed as needed.
+
+
+The General Settings within the terminal profile comprise the following configurations:
+Time Zone: This dropdown menu contains a list of time zones along with their descriptions. Selecting a specific time zone will ensure that the corresponding time zone is reflected on the clock or device.
+Time Format: Two options, represented by radio buttons, are available: 24-hour format and 12-hour format. The selected time format will be configured on the device or clock.
+Default Language: This setting determines the primary language in which all the text will be displayed on the clock. The default language can be chosen from the available languages. Only one default language can be selected at a time.
+Available Languages: This section presents a list of languages that are available for selection.
+Import Client Logo: This feature allows the inclusion of the client's logo image. While multiple logos may be present in the list, only one logo can be selected at a time.
+Please note that these configurations pertain to the General Settings within the terminal profile, and the options and functionalities mentioned may vary depending on the specific terminal profile or software version being utilized.
+
+
+The Messaging section encompasses the following configurations:
+1. Primary Idle Message: This setting refers to the message that is displayed on the clock when it is in an idle state, typically when an employee is not actively interacting with the device. The primary idle message can be customized to convey relevant information or reminders to employees during periods of inactivity.
+2. Primary Idle Duration: This configuration determines the duration of time that the primary idle message remains visible on the clock before transitioning to another state or action. It specifies the length of time the idle message is displayed to employees during periods of inactivity.
+3. Secondary Idle Message: Similar to the primary idle message, the secondary idle message is another customizable message that is displayed on the clock when it is in an idle state. This message can be used to provide additional information or notifications to employees during idle periods.
+4. Secondary Idle Duration: This setting specifies the duration for which the secondary idle message remains visible on the clock before transitioning to a different state or action. It determines the length of time the secondary idle message is displayed to employees during periods of inactivity.
+These messaging configurations allow organizations to utilize the clock's idle state as an opportunity to communicate important messages or reminders to employees, ensuring that relevant information is conveyed even during moments when the clock is not actively being used for clock-ins or other interactions.
+
+
+Time clock usage within the clock, the following configurations are available:
+1. Enable Pin Entry: This option enables the use of PIN (Personal Identification Number) entry for employees to clock in or out. When enabled, employees can enter a unique PIN associated with their profile to record their attendance on the clock.
+2. Enable Schedule Enforcement: When this setting is enabled, the clock enforces adherence to employees' scheduled work hours. It ensures that employees can only clock in or out within their designated schedule, helping to maintain schedule accuracy and prevent unauthorized clocking.
+3. Supervisor Log On: This feature allows supervisors or managers to log in to the clock using their credentials to access additional functionalities or perform specific actions. The supervisor log on can be achieved through various methods, including the following:
+   - Supervisor Badge (S-Badge): This option enables supervisors to use a specific badge (S-Badge) for authentication when logging on to the clock as a supervisor. The S-Badge is a designated badge associated with supervisor privileges.
+   - Standard Badge with Supervisor Employee: With this configuration, a standard employee badge can be assigned to a supervisor, allowing them to use their regular employee badge for logging in as a supervisor.
+   - Standard Badge with Supervisor Login Key: In this setup, supervisors can log in using a standard employee badge in combination with a unique login key assigned specifically to supervisors. This combination provides the necessary authorization for supervisor access.
+   - Password: This method requires supervisors to enter a password associated with their supervisor account to log in to the clock.
+These time clock usage configurations offer flexibility in terms of authentication and access control, allowing supervisors to perform their designated functions and ensuring compliance with security and supervisor-specific actions within the clock system.
+
+
+Within the Soft Key configuration of the clock, the following options and functionalities are available:
+1. Key Layout:
+   - Label Above Soft Key: This allows administrators to assign labels or descriptions to be displayed above each soft key on the clock. These labels provide contextual information about the function or action associated with each soft key.
+   - Label Next to Soft Key: This option enables administrators to assign labels or descriptions to be displayed next to each soft key on the clock, further clarifying the purpose of each key
+2. Editor Display:
+   - Function Key Edit Mode: This mode allows administrators to enter an editing mode specifically for configuring the function keys. In this mode, changes and modifications can be made to the function key settings.
+   - Function Key Preview: This feature provides a preview of how the function keys will appear on the clock's display after the configurations are saved.
+   - Function Mode: This setting determines the overall behavior and functionality of the function keys on the clock. It defines the specific actions or operations that will be performed when the function keys are pressed or interacted with.
+   - Screens: This section allows administrators to customize and define the screens or displays associated with the function keys. Each screen can have different information or options available to users.
+   - Soft Key Label: This configuration enables administrators to assign labels or descriptions to individual soft keys, indicating their specific functions or actions.
+   - Edit Button: The edit button provides administrators with the ability to add or edit function keys within the soft key configuration. It allows for the customization and modification of the function keys according to the organization's requirements.
+3. Function Keys:
+   - Employee Function Keys: These function keys are specifically designated for employee-related actions or operations, providing quick access to commonly used functions relevant to employees.
+   - Supervisor Function Keys: Supervisor function keys are intended for supervisor-specific actions or operations, granting supervisors access to functions and features tailored to their managerial responsibilities.
+   - Working of Each Function Key: The working of each function key may vary based on its configuration. Supplemental keys, for example, can provide additional functions or options beyond the standard set of keys. Transfer keys may facilitate the transfer of data or actions between different systems or processes. The specific working and purpose of each function key should be defined and configured as per the organization's requirements.
+These Soft Key configuration options allow administrators to customize the layout, labels, and functionality of the soft keys on the clock, ensuring that employees and supervisors can easily access the desired features and perform the necessary actions efficiently.
+
+
+Scan Formats on the clock, the following configurations are available:
+1. Employee Badge:
+   - Standard (ADP Provided): This option refers to the standard format of the employee badge barcode provided by ADP. It is a pre-defined format for scanning employee badges.
+   - Standard and Generic: This setting allows for the scanning of both standard employee badges and generic barcodes that may not be specific to individual employees.
+   - None: Selecting "None" means that employee badge scanning is not enabled or required.
+   - Total Characters on Barcode: This configuration specifies the total number of characters present on the employee badge barcode.
+   - Start Position: The start position indicates the beginning character from where the relevant information for employee identification starts on the barcode.
+   - Length: The length configuration defines the number of characters to be read from the barcode for employee identification.
+   - Barcode Format - Preview: This provides a preview of the barcode format based on the selected settings, giving an idea of how the barcode will appear when scanned.
+2. Labor Charge Barcode:
+   - Total Characters on Barcode:
+      - Department: This refers to the total number of characters present on the barcode representing the department for labor charge tracking.
+      - Job: Similarly, this indicates the total number of characters on the barcode representing the job or task for labor charge tracking.
+   - Start Position: The start position denotes the starting character from where the relevant information for labor charge tracking (department or job) begins on the barcode.
+   - Length: The length configuration specifies the number of characters to be read from the barcode for labor charge tracking (department or job).
+   - Barcode Format - Preview: This provides a preview of the barcode format based on the selected settings, displaying how the barcode will appear when scanned for labor charge tracking.
+3. Proximity Format:
+   - Custom Format In Use: This setting indicates whether a custom proximity format is currently being used for badge scanning.
+   - Custom Formats Available: It denotes the availability of custom proximity formats that can be used for badge scanning, allowing for specific configurations tailored to organizational requirements.
+These Scan Format configurations allow for the customization of employee badge, labor charge barcode, and proximity format settings, ensuring accurate and efficient scanning and identification within the clock system based on the organization's needs and preferences.
+
+
+
+"Add New Device"  means The process of adding a new device involves the creation of a virtual device with a distinct device ID and corresponding configurations. Upon providing the physical clock with the assigned device ID and communication details, the predetermined configurations are transferred to the clock. Consequently, the clock becomes operational, enabling essential functions such as employee punch-in and punch-out actions.
+This document provides step-by-step instructions for adding a new device within the system. Follow the outlined procedure to successfully configure and integrate a device into the system.
+
+1. Login to the System:
+   - Open a web browser and navigate to the login page of the system.
+   - Enter your login credentials (username and password) to access the system.
+2. Navigate to Device Management:
+   - Once logged in, locate and click on the "Setup" tab in the system's interface.
+   - From the available options, select "Time Clock Configuration" or a related feature to manage devices.
+3. Add a New Device:
+   - Within the Device Management section, search for the option to "Add New Device" button.
+   - Click on the "Add New Device" button to initiate the device addition process.
+4. Complete Device Details:
+   - On the device creation page, you will find several fields that require specific information. Provide the following details:
+   a) Select Culture (Language):
+      - Choose the desired language or cultural setting for the device interface.
+   b) ID (mandatory):
+      - Enter a unique identifier for the device. This identifier serves as a distinct label for the device within the system.
+   c) Description (mandatory):
+      - Provide a brief and informative description or label for the device to aid in identification.
+   d) Timeclock Model:
+      - Select the appropriate timeclock model from the available options (e.g., 'Intouch Clock' or 'IntouchDX Clock').
+   e) TimeClock Profile (mandatory):
+      - Assign a TimeClock Profile to the device. Select the desired profile from the list of existing profiles. Create a new profile if necessary.
+   f) Disable Device Communication (checkbox):
+      - Check this box if you want to temporarily disable device communication.
+5. Save and Verify:
+   - After entering all the required device details, review the information for accuracy.
+   - Click on the "Save" or "Submit" button to save the device configuration.
+6. Assign the Physical Clock:
+   - Obtain the physical clock corresponding to the newly added device.
+   - Configure the clock's communication settings, including the assigned Device ID and other necessary details provided during the device addition process.
+7. Test the Device:
+   - Ensure the physical clock is properly connected and powered on.
+   - Perform tests such as punch-in and punch-out actions to verify that the device is functioning correctly.
+
+
+In the context of a clock, the terms "Bell Schedule" and "Gate Schedule" refer to specific scheduling functionalities related to time management and access control. These features are commonly found in timekeeping systems or attendance management systems that include clock devices. Let's explore each of them:
+Both Bell Schedules and Gate Schedules help organizations streamline operations, manage employee attendance, enforce security protocols, and improve overall time management. By utilizing these scheduling features within a clock device, organizations can ensure adherence to predetermined schedules and control access to specific areas as needed.
+Bell Schedule:
+   - A Bell Schedule is a predefined schedule that controls the ringing of bells or other audible alerts within an organization. It is typically used to indicate the beginning and end of work shifts, breaks, lunchtime, and other important events or activities throughout the day.
+   - The Bell Schedule allows administrators to configure specific time intervals and durations for each event or alert. This ensures that employees and staff are aware of scheduled activities and can manage their time accordingly.
+   - When integrated with a clock device, the Bell Schedule triggers the clock to generate audible signals at the designated times, serving as an audio indicator for employees to start or end their shifts, take breaks, or transition to other work-related activities.
+Gate Schedule:
+   - A Gate Schedule refers to a scheduling feature that controls physical access to certain areas or gates within an organization. It is commonly used in environments where restricted access is required, such as secure facilities, specific work zones, or time-limited access areas.
+   - The Gate Schedule enables administrators to define specific time periods during which gates or access points are open or closed. This schedule ensures that access is granted only during authorized time intervals, enhancing security and ensuring compliance with access control policies.
+   - When integrated with a clock device, the Gate Schedule synchronizes the opening and closing of gates or access points based on the predefined schedule. It may use various mechanisms such as card readers, biometric authentication, or keypads to verify and grant access to authorized individuals during the designated time frames.
+
+
+
+Clock Setup Instructions to setup a clock.
+Once you have added a new device within the system, you will find a link to set up the device on the "Add Device" page. Follow the setup instructions below to configure the physical clock with the necessary details:
+Clock Setup Instructions:
+
+1. Power on the clock device.
+2. Select the default language for the clock's interface.
+3. Tap the Menu button located at the bottom left of the clock's screen.
+4. On the subsequent screen, tap "Maintenance Mode".
+5. Enter the password "115190" and press Enter. Disregard any prompt to change the password.
+6. Tap "Settings".
+7. Within the Settings menu, select "Communication Settings" > "General Communication".
+8. Tap on "Device Initiated".
+9. Enter the Device ID specific to your clock. You can find this ID under the "Device ID" column of the clock.
+10. Enter the Primary Server Password, which can be found under the "Password" column of the clock. Confirm the password entry.
+11. Set "Http-SSL" to "No".
+12. Configure the following settings:
+    - Set "Primary Server" to "INTOUCH2.SAASHR.COM".
+    - Set "Primary Server Port" to "80".
+    - Set "Primary Server Instance ID" to "99".
+13. Review the entered information and tap "Submit" to save the settings.
+14. Proceed to the appropriate configuration based on your network setup:
+    - If using DHCP, follow the instructions for "DHCP Clock Configuration".
+    - If using a static IP, follow the instructions for "Static IP Clock Configuration".
+    - If using Wi-Fi, follow the instructions for "Wi-Fi Clock Configuration".
+
+By following these setup instructions, you will be able to properly configure the clock device.
+
+
+Copy a device, follow these steps:
+1. Access the Device Management page within the system.
+2. Locate the device you want to copy from the list of existing devices.
+3. Select the specific device by clicking on it. This will highlight the device and display its details.
+4. Scroll to the bottom of the device details page.
+5. Look for the "Copy" button or a similar option at the bottom of the page.
+6. Click on the "Copy" button to initiate the device copying process.
+7. The system will create a duplicate of the selected device, including all its settings and configurations.
+8. Review the copied device details to ensure their accuracy and make any necessary modifications or updates.
+9. Save the changes to finalize the copied device.
+By following these steps and clicking the "Copy" button at the bottom of the device details page, you can successfully create a duplicate device with identical settings and configurations. This allows for easy replication of device setups and saves time when adding similar devices to the system.
+
+Delete a device, please follow these steps:
+1. Access the Device Management page within the system.
+2. Locate the device you want to delete from the list of existing devices.
+3. Select the specific device by clicking on it. This will highlight the device and display its details.
+4. Scroll to the bottom of the device details page.
+5. Look for the "Delete" button or a similar option at the bottom of the page.
+6. Click on the "Delete" button to initiate the device deletion process.
+7. A confirmation prompt will appear, asking you to confirm the deletion.
+8. Confirm the deletion when prompted to proceed.
+9. The system will permanently remove the device and its associated settings from the system.
+Note: When deleting a device, be aware that all associated data, configurations, and assignments will be permanently removed. Ensure that you have backed up any necessary information and consider any potential impacts on user assignments or other dependent settings before proceeding with the deletion.
+
+
+"Activity" In the context of a clock, activities refer to the commands that can be pushed from the server to the clock device. These commands are intended to perform specific actions on the clock and enable various functionalities. Here are some common activity commands:
+1. Timeclock Initialization:- This activity command is used to initialize or reset the clock device, ensuring it is ready for operation. It typically involves setting the clock's internal time, verifying system integrity, and preparing the device for regular use.
+2. Load Firmware:- The Load Firmware activity command is used to update the firmware or software on the clock device. It allows for the installation of new features, bug fixes, security patches, and other enhancements to improve the clock's performance and functionality.
+3. Enable Remote Access:- By sending the Enable Remote Access command, the server grants the clock device the ability to be accessed and controlled remotely. This enables administrators or authorized personnel to manage the clock's settings, perform diagnostics, and retrieve data from the clock without physical interaction.
+4. Download Timeclock Configuration:- The Download Timeclock Configuration command transfers the configuration settings from the server to the clock device. This includes parameters such as time zone, language, display settings, and other customizable options that define the clock's behavior and appearance.
+5. Download Employee Data:- This activity command is used to download employee data from the server to the clock device. It synchronizes employee information, such as names, badge numbers, departments, or schedules, with the clock. This ensures accurate identification and tracking of employee attendance and time records.
+6. Disable Remote Access:- The Disable Remote Access command revokes the remote access privileges previously granted to the clock device. It restricts any external control or management capabilities and limits interactions with the clock to local operations only.
+These activity commands allow the server to control and manage the clock devices efficiently, ensuring synchronization, configuration, and appropriate updates across the entire clock network. The specific activity commands available may vary depending on the clock model and the features supported by the timekeeping system.
 
 
 Employee: Punching using a time clock
