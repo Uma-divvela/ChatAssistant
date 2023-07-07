@@ -1,0 +1,104 @@
+Clock Setup Instruction:
+1.  Power the clock on.
+2.  Select the default language.
+3.  Tap the Menu button on the bottom left of the clock.
+On the next screen, tap Maintenance mode.
+4.  Then enter in password 115190 and press Enter. (When prompted to Change Password, please disregard).
+5.  Tap Settings.
+On the next screen, choose Communication Settings > General Communication.
+6.  Tap on Device Initiated.
+Enter the Device ID for your specific clock (found under the “Device Id” column of the clock).
+7.  Enter the Primary Server Password (under “Password” column of the clock), then enter again to verify.
+8.  Http-SSL to No.
+9.  Set Primary Server to INTOUCH2.SAASHR.COM.
+10.  Set Primary server Port to 80.
+11.  Set Primary Server Instance ID to 99.
+12.  Review information and then tap Submit.
+13.  If you will be using DHCP, proceed to DHCP Clock Configuration.
+     If you will be using static IP, proceed to Static IP Clock Configuration.
+     If you will be using Wi-Fi, proceed to Wi-Fi Clock Configuration.
+
+
+Employee: Punching using a time clock
+Employees/Workers are required to use the time clocks in most facilities. Here is a quick instruction on how to punch in and out.
+Enrolled Fingerprint:
+1.  Rest finger on device and system will recognize and punch you in or out depending on the last punch
+NON-ENROLLED Employees
+Managers/ Staffing agency has ability to enroll employees’ fingers, ask them immediately for assistance.
+1.  Start: Click on the keyboard icon on the bottom right of device or punch button on screen and enter your Badge ID#.
+a.  Badge ID is given to you by your staffing supplier or onsite manager/supervisor may be able to get this for you.
+2.  Click In or Out button, if prompted, then punch will be accepted.
+3.  Make sure to check that your name is displayed on screen 
+
+
+
+Review Punches
+The Review Punches transaction allows employees to see all of their in and out entries for the past 12 hours.
+1. Tap Review Punches.
+2. Swipe your badge or enter your badge ID and tap Enter.
+3. Review the punch details. Only punches made on the time clock selected will be displayed.
+
+
+View Timecard
+The View Timecard transaction displays a timecard in an hourly view (start time, end time, and shift totals) for each day in the selected pay period. Only employees whose assigned time entry method is hourly can perform this transaction.
+1. Tap View Timecard.
+2. Swipe your badge or enter your badge ID and tap Enter. Information about your last punch appears.
+3. Select the time span.
+– Previous Pay Period
+– Current Pay Period
+– Next Pay Period
+– Today
+– Yesterday
+– Week to Date
+– Last Week
+4. Tap a day. An exclamation point icon indicates that there is an exception. An “E” indicates an exception, such as a missed punch.
+
+
+View Accruals Balance
+Use the View Accruals Balance transaction to view current totals of accrued time, such as vacation, personal, and sick time. Totals are accurate as of the time that you perform the transaction. Accrual totals information includes the accrual code name, type, and period ending balance. You can also view projected accrual totals as of a specific date.
+1. Tap View Accruals Balance.
+2. Swipe your badge or enter your badge ID and tap Enter.
+3. Select the end date of the period you are viewing. You can enter a date in the past or the future.
+
+
+Request Time Off
+Use the Request Time Off transaction to submit time off requests.
+1. Tap New Request.
+2. Swipe your badge or enter the badge ID and tap Enter.
+3. Select the time off request type.
+4. Select Hours.
+5. Enter the start date of the request.
+6. Enter the start time of the request.
+7. Enter the amount, in hours.
+8. Select the Pay Code.
+
+
+Test the communication and read the error
+1.Click on Maintenance Button on device (button with 3 slashes)
+2.Hit Maintenance Mode on screen
+3.Password is 115190 hit enter
+4.Click on Tests > Communications
+5.Hit Play
+If failure, write down the error message exactly as it appears and share with a DWS or IT representative. This error will help find the exact next steps to take.
+
+
+Check WiFi network or change:
+1.Click on Maintenance Button on device (button with 3 slashes)
+2.Hit Maintenance Mode on screen
+3.Password is 115190 hit enter
+4.Click on Settings > Communication Settings
+5.Click on WiFi button
+6.Search for an open network or one with a password you know and select it. Follow the prompts to connect
+7.Hit back to the Maintenance Mode menu
+8.Click on Tests>Communications>Play
+if failure, write down the error message and share with your DWS or IT representative. 
+ 
+
+Try to reboot device:
+1.Click on Maintenance Button on device (button with 3 slashes)
+2.Hit Maintenance Mode on screen
+3.Password is 115190 hit enter
+4.Click on Advanced>Restart Device
+5.Click Restart Device and Yes.
+6.Clock will reboot and take you back to the home page.
+

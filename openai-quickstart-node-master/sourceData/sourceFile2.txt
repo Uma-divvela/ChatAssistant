@@ -1,0 +1,100 @@
+
+InTouch Biometric Enrollment
+Accessing Manager Mode
+Access Manager Mode with a Supervisor Badge
+Note: Supervisor badges are sold and shipped separately from the clocks. Supervisor badges must
+be ordered in addition to the InTouch timeclock.
+1. Swipe your Supervisor (“S”) badge or type 999555100 using the keyboard icon . Tap Enter.
+2. Enter your manager mode password and tap Enter. Default password is 00000.
+Access Manager Mode with an Employee Badge
+Manager mode can be accessed when the following conditions are met:
+• You are enrolled as an employee with Supervisor access.
+• The InTouch timeclock allows you to use an Employee badge to access supervisor
+mode.
+1. Swipe your Employee badge or enter your badge id using the keyboard icon . Tap Enter.
+2. Enter your manager mode password and tap Enter. Default password is 00000.
+Access Manager Mode with an Employee Badge and Supervisor Log On Key
+Depending on the how the device is configured, you might be able to use your employee badge in
+conjunction with the Supervisor Log On key to access manager mode, when the following conditions
+are met:
+• You are enrolled as an employee with a Supervisor license.
+• The InTouch timeclock allows you to use an Employee badge to access supervisor mode.
+• The InTouch timeclock enabled with the Supervisor Log On key.
+1. On the employee home page, tap Supervisor Log On.
+2. Swipe your Employee badge or enter your badge id using the keyboard icon . Tap Enter.
+3. Enter your manager mode password and tap Enter. Default password is 00000.
+
+
+InTouch Biometric Enrollment
+1. Once in the Manager Mode, Tap on Enroll Employee.
+2. Enter employee badge number, Tap Enter.
+3. Tap the button that corresponds with the finger you wish to enroll.
+4. Place the chosen finger to Capture Fingerscan.
+5. A “Good Enrollment” screen will confirm enrollment status.
+6. Test finger on the Confirm Fingerscan page.
+7. An “Accepted: Enrollment Test” message will indicate successful enrollment and test.
+8. Option to enroll an additional finger is available. Select Yes or No.
+9. If additional employees are needing to be enrolled, do so on the final screen, Select Yes or No. 
+
+
+
+
+InTouch 9100 Step By Step Guide
+To utilize the InTouch 9100-time clock, you must first establish the clock in the online Green Leaf Elevated portal. Second, assemble the clock and establish an internet connection. Third, the clock needs to know who the manager is as well as enroll the fingerprints for employees. All steps are listed below as well as any troubleshooting that may be needed. Every step of this guide, except enrolling employee fingerprints, has been completed by the Green Leaf team.
+
+Register your Clock to the Green Leaf Elevated Account
+Log on to the Elevated system with your account:
+
+ - Navigate to Hamburger Menu > Gear Icon > System> InTouch Installations
+ - Click on “Add New” located at the top right of the screen
+ - Enter the clock Serial Number (SN) that is located on the bottom of the physical clock and click “Add”. When adding the clock, you may rename it to add the location or indicator of the clock for ease of finding clocks later on.
+
+NOTE: The clock's Serial Number (SN) will normally start with 00JC - you can also name this clock by clicking on the "middleware" icon.
+- You will see the new clock that is added to your company if you have multiple clocks you can filter by the Serial Number field to find the clock or by the naming convention.
+- Take note of the Device ID and Password as these will be entered manually into the physical clock, these numbers are found here:
+- Navigate to Hamburger Menu > Gear Icon > System > Terminals (External)
+- Click the Pencil on the Clock added to edit the settings as seen below. You can update the clock name, filter the employee group that should be on the clock, and update the time zone.
+- Update the "Idle Screen Message" to say "Choose the Action Icon then Enter Badge or Finger". This is the message the employees see when they approach the clock.
+- Update the Manager Password to "115190". This will be the password the managers use along with the badge ID they have assigned to their employee profile when assigning fingerprints to the employees.
+- Choose "New" for the Icon Style. This dictates the button icons on the clock.
+- Now to set up the "soft keys" or the buttons the employees and managers see on the clock. When clicking on "Soft Key #1" as seen below, choose the box next to the soft key.
+- Once the box is checked, the options to add the icons and settings per icon of your choice become available. Below are the suggested options. You may add as many soft keys and options as you'd like.
+- We recommend the icons related to employee functions have the below settings.
+- Any settings that only managers should be responsible to perform, the settings would be as seen below:
+NOTE - for the Manager Settings Icon - be sure the view access is EMPLOYEE for the access to be available from resting. This then would prompt the manager to enter credentials (Badge + Password) that will grant them access to all other soft keys set to manager access.
+- Once you are done adding/enabling all the Soft Keys you would like to show on the clock – which will be AFTER your clock has been set up on step 2. If any changes are needed after your initial setup, the steps below will help to refresh the clock with your changes. If this is the first update – no need to do the remaining steps.
+- Click on “Save” located at the top right of the terminal screen
+- Hit the “BACK” icon once
+
+ 
+This concludes the Elevated platform portion of this guide. The next steps will review setting up the physical clock.
+Configuring the Physical Clock
+- Power the clock on
+- Select the default language
+- Hit the physical Menu button on the bottom left of the clock and select Maintenance Mode and enter password 115190.  
+- Click on Settings > Communication Settings > General Communication
+- Click on "Device Initiated" 
+- Enter the Device ID found under the “Device Id” column of the clock within your System Administrator’s Elevated account under System->InTouch Installations
+- Enter the Primary Server Password found under the “Password” column within your System Administrator’s Elevated account under System->InTouch Installations
+- Set HTTP-SSL to No
+- Primary Server to INTOUCH5.SAASHR.COM
+- Primary server Port to 80
+- Primary Server Instance ID to 1
+- Click submit
+
+ 
+
+- Once it says it was “successful” click on IPV4
+The next steps are having to do with IP Settings and Wi-Fi connectivity.  
+Setting clock to use DHCP/ Wi-Fi
+
+ 
+
+- Select Settings> Communication Settings> IPV4 Configuration
+- Select DHCP
+- Speed select “Auto”
+- Select Submit and wait for the Accepted settings alert
+- Once it says it was successful click on Wi-Fi
+- On the top right switch from “Off” mode to “On”
+- Select the Wireless network you want to connect to and click on “Connect to network”
+NOTE: If there is no password on the wireless network you are connecting to it will obtain IP automatically using DHCP. If you would like to set static to follow the steps below. If there is a password, please move to step b.

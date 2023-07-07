@@ -1,0 +1,1 @@
+"Issue: Biometric verification not happening when employees punch in at the clock.Solution: Re-initiation of the clock will solve this issue."
